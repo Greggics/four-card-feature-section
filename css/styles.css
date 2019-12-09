@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.header {
+  background-color: lightgrey;
+  width: 500px;
+  margin: 0 auto;
+}
+.content {
+  background-color: lightblue;
+  position: relative;
+  height: 600px;
+}
+
+.section {
+  background-color: yellow;
+  position:absolute;
+  width: 25%;
+  height: 250px;
+}
+
+.supervisor {
+  top: 125px;
+  left: 10%;
+}
+
+.team-builder {
+  top: 0;
+  left: 37.5%;
+}
+
+.karma {
+  top: 300px;
+  left: 37.5%;
+}
+
+.calculator {
+  top: 125px;
+  right: 10%;
+}
