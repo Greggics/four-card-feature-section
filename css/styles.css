@@ -1,5 +1,13 @@
 body {
   margin: 0;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(229, 6%, 96%);
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
 }
 
 .attribution {
@@ -12,39 +20,65 @@ body {
 }
 
 .header {
-  background-color: lightgrey;
   width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
+
+.pre-title {
+  font-weight: 200;
+}
+
 .content {
-  background-color: lightblue;
+  margin-top: 50px;
   position: relative;
   height: 600px;
 }
 
 .section {
-  background-color: yellow;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
   position:absolute;
   width: 25%;
   height: 250px;
+
+  box-shadow: 0 3px 10px hsl(229, 6%, 66%);
+}
+
+h2 {
+  margin: 0;
+  color: hsl(234, 12%, 34%);
+}
+
+img {
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
 }
 
 .supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
   top: 125px;
   left: 10%;
 }
 
 .team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
   top: 0;
   left: 37.5%;
 }
 
 .karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
   top: 300px;
   left: 37.5%;
 }
 
 .calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
   top: 125px;
   right: 10%;
 }
